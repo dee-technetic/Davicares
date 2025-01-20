@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover natural paths to wellness with our naturopathic solutions and therapy services. Explore holistic health approaches, nutrition counseling, and stress management techniques to nurture your body, mind, and spirit."
+    />
+    <meta
+      name="keywords"
+      content="naturopathic solutions, wellness therapy, holistic health, natural remedies, integrative medicine, alternative therapy, mind-body healing, nutrition counseling, stress management, wellness programs, healthy living, natural health solutions"
+    />
+    <link rel="stylesheet" href="admindash.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Davicares admin</title>
+  </head>
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>Davicares</header>
+      <a href="admindash.html" class="active">
+        <i class="fas fa-qrcode"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="appointment.html">
+        <i class="fas fa-calendar"></i>
+        <span>Appointment</span>
+      </a>
+      <a  href="product.html">
+        <i class="fas fa-leaf"></i>
+        <span>Products</span>
+      </a>
+      <a href="adminlogin.html">
+        <i class="fa fa-times-circle"></i>
+        <span>Logout</span>
+      </a>
+    </div>
+ <!-- main -->
+ <main class="container mt-4">  
+  <h2 class="text-center">ADD PRODUCTS</h2>  
+  <div class="row">
+    <div class="col">
+      <form method="post" id="productForm">
+<div class="mb-3">
+  <label for="productName" class="form-label">Product Name</label>
+  <input type="text" class="form-control" id="productName" name="productName">
+</div>
+<div class="mb-3">
+    <label for="productPrice" class="form-label">Product Price</label>
+    <input type="text" class="form-control" id="productPrice" name="productPrice">
+  </div>
+  <div class="mb-3">
+    <label for="productlink" class="form-label">Product Name</label>
+    <input type="file" class="form-control" id="productlink" name="productlink">
+  </div>
+<div class="mb-3">
+  <button type="submit" style="background-color: #cb8357; border-radius: 25px 50px;" class="btn btn-md" name="btnadd" value="add">Add Product</button>
+</div>
+</form>
+</div>
+</div>
+</main>  
+<!-- footer -->
+  <footer style="position: fixed;">
+    <div class="logo">
+      <h1>Davicares</h1>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Davicares. All rights reserved.</p>
+      <a href="admindash.html"><i class="fas fa-qrcode"></i> Dashboard</a>
+      <a href="appointment.html"><i class="fas fa-calendar"></i> Appointment</a>
+      <a href="product.html"><i class="fas fa-leaf"></i> Products</a>
+      <a href="adminlogin.html"><i class="fas fa-times-circle"></i> Logout</a>
+      <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+    </div>
+    <div class="contact">
+      <h5>Contact Us</h5>
+      <p>Phone: +2348109496707</p>
+      <p>Email: davicarescenter@gmail.com.com</p>
+      
+    </div>
+    <div class="address">
+      <h5>Address</h5>
+      <p>Lagos, Nigeria.</p>
+    </div>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+ <script src="../assets/bootstrap/jquery.min.js"></script>
+ <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="admindash.js"></script>
+  </body>
+</html>

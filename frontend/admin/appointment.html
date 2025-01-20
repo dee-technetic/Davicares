@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover natural paths to wellness with our naturopathic solutions and therapy services. Explore holistic health approaches, nutrition counseling, and stress management techniques to nurture your body, mind, and spirit."
+    />
+    <meta
+      name="keywords"
+      content="naturopathic solutions, wellness therapy, holistic health, natural remedies, integrative medicine, alternative therapy, mind-body healing, nutrition counseling, stress management, wellness programs, healthy living, natural health solutions"
+    />
+    <link rel="stylesheet" href="admindash.css" />
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Davicares admin</title>
+  </head>
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <header>Davicares</header>
+      <a href="admindash.html" class="active">
+        <i class="fas fa-qrcode"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="appointment.html">
+        <i class="fas fa-calendar"></i>
+        <span>Appointment</span>
+      </a>
+      <a href="adminlogin.html">
+        <i class="fa fa-times-circle"></i>
+        <span>Logout</span>
+      </a>
+    </div>
+ <!-- main -->
+ <main class="container mt-4">  
+  <h2 class="text-center">APPOINTMENTS</h2>  
+  <div class="welcome-section d-flex justify-content-between align-items-center mb-4">  
+    <h5 class="font-weight-bold">Welcome, Ade@gmail.com</h5>  
+    <div class="dropdown"> 
+      <a href="profile.html"> <button class="button">  
+        Edit Profile  
+    </button> </a> 
+        
+    </div>  
+</div>  
+
+  <div class="row">  
+    <div class="col-md-6">
+        <div class="card">
+          <img src="../assets/images/naturoimg1.jpg" class="card-img-top" alt="backgroundimage">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card p-4">
+       <p>Discover a holistic approach to health. Schedule a consultation with our experienced naturopathic practitioners and embark on your journey to optimal wellness."</p>
+       <br>
+    </div>
+      </div>
+    </div>
+  </div>
+  <h3 class="mt-5"><i class="fas fa-calendar"></i> Appointments</h3>   
+  <table class="table">  
+    <thead style="background:#cb8357;">  
+        <tr>  
+            <th>S/N</th>  
+            <th>Full Name</th>  
+            <th>Date</th>  
+            <th>Action</th>  
+        </tr>  
+    </thead>  
+    <tbody id="appointments-table-body">  
+        <!-- Appointment details will be rendered here -->  
+    </tbody>  
+</table>  
+</main>  
+<!-- footer -->
+  <footer>
+    <div class="logo">
+      <h1>Davicares</h1>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2024 Davicares. All rights reserved.</p>
+      <a href="admindash.html"><i class="fas fa-qrcode"></i> Dashboard</a>
+      <a href="appointment.html"><i class="fas fa-calendar"></i> Appointment</a>
+      <a href="adminlogin.html"><i class="fas fa-times-circle"></i> Logout</a>
+      <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+    </div>
+    <div class="contact">
+      <h5>Contact Us</h5>
+      <p>Phone: +2348109496707</p>
+      <p>Email: davicarescenter@gmail.com.com</p>
+      
+    </div>
+    <div class="address">
+      <h5>Address</h5>
+      <p>Lagos, Nigeria.</p>
+    </div>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+ <script src="../assets/bootstrap/jquery.min.js"></script>
+ <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="admindash.js"></script>
+  <script type="module" src="appointment.js"></script>
+  </body>
+</html>
