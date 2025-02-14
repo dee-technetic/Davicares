@@ -74,7 +74,7 @@ async function cancelAppointment(id, name) {
   if (!confirmation) return;   
 
   try {  
-      const response = await fetch(`http://localhost:2000/api/admin/delete-appointment/${id}`, {  
+      const response = await fetch(`https://davicares.onrender.com/api/admin/delete-appointment/${id}`, {  
           method: 'DELETE',  
           headers: {  
               'Authorization': `Bearer ${TOKEN}`,  
