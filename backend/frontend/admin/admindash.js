@@ -1,5 +1,5 @@
 
-const storedAdmin = localStorage.getItem('registeredAdmin');  
+const storedAdmin = localStorage.getItem('loggedInadmin');  
 if (!storedAdmin) {   
   window.location.href = 'adminlogin.html';   
 }  
