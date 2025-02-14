@@ -1,6 +1,6 @@
 
  
- const API_URL = "http://localhost:2000/api/admin/list-appointment-details";
+ const API_URL = "https://davicares.onrender.com/api/admin/list-appointment-details";
  const TOKEN = localStorage.getItem("authToken");
  
  // Function to fetch appointments

@@ -1,6 +1,6 @@
 
 async function registerAdmin(adminData) {  
-    const url = "http://localhost:2000/api/admin/register";  
+    const url = "https://davicares.onrender.com/api/admin/register";  
     console.log("Data to be sent:", adminData);   
     try {  
         const response = await fetch(url, {  

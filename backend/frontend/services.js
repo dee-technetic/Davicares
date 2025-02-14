@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const date = document.getElementById('date').value;  
 
     try {  
-      const response = await fetch('http://localhost:2000/api/appointment', {  
+      const response = await fetch('https://davicares.onrender.com/api/appointment', {  
         method: 'POST',  
         headers: {  
           'Content-Type': 'application/json'  

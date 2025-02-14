@@ -1,6 +1,6 @@
 
 export async function loginAdmin(adminData) {  
-    const url = "http://localhost:2000/api/admin/login";  
+    const url = "https://davicares.onrender.com/api/admin/login";  
     console.log("Data to be sent:", adminData);  
 
     try {  

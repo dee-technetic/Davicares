@@ -29,7 +29,7 @@ profileForm.addEventListener('submit', async (event) => {
     }
 
    
-    const url = `http://localhost:2000/api/admin/update-admin/${id}`;
+    const url = `https://davicares.onrender.com/api/admin/update-admin/${id}`;
 
     
     const response = await fetch(url, {
