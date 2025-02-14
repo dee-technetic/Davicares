@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const admin = JSON.parse(storedAdmin);  
   const welcomeElement = document.querySelector('.welcome-section h5');  
   if (welcomeElement) {  
-    welcomeElement.textContent = `Welcome, ${admin.fullname} - ${admin.email}`;   
+    welcomeElement.textContent = `Welcome, ${admin.email}`;   
   }  
 });  
 
