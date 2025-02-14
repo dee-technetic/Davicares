@@ -31,7 +31,7 @@ const setAppointment = async (req, res) => {
         // Save the appointment to the database  
         await appointment.save();  
 
-        // Set up Nodemailer transporter with OAuth2  
+        // Set up Nodemailer transporter 
         const transporter = nodemailer.createTransport({  
             service: 'gmail',  
             auth: {  
